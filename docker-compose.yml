@@ -1,0 +1,12 @@
+version: '3'
+services:
+
+  rust:
+    build: .
+    container_name: rust
+    volumes:
+      - "./myapp:/usr/src/myapp"
+    working_dir: "/usr/src/myapp"
+    command: cargo run
+    ports:
+      - "8000:8000"

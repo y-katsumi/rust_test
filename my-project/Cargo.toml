@@ -1,0 +1,8 @@
+[package]
+name = "my-project"
+version = "0.1.0"
+edition = "2021"
+authors = ["y-katsumi <kachu20101107@gmail.com>"]
+
+[dependencies]
+nannou = "0.18.1"
